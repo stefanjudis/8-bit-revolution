@@ -1,0 +1,25 @@
+{
+  "name": "grandmas-notifier",
+  "version": "1.0.0",
+  "description": "[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/stefanjudis/grandmas-notifier)",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "netlify-lambda": "^1.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "netlify-lambda build functions"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stefanjudis/grandmas-notifier.git"
+  },
+  "keywords": [],
+  "author": "stefan judis <stefanjudis@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stefanjudis/grandmas-notifier/issues"
+  },
+  "homepage": "https://github.com/stefanjudis/grandmas-notifier#readme"
+}
