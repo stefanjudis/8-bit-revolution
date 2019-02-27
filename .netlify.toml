@@ -1,0 +1,11 @@
+[build]
+  command = "npm run build"
+  functions = ".functions"
+  publish = "dist"
+
+[template.environment]
+  TWILIO_ACCOUNT_SID = "Your Twilio account sid"
+  TWILIO_AUTH_TOKEN = "Your Twilio account auth token"
+  BOT_NUMBER = "The bot number (Whatsapp or SMS)"
+  BOT_MESSAGE = "Message that should be send"
+  CONTACT_NUMBERS = "Numbers that should be notified"
