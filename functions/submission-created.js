@@ -11,7 +11,7 @@ const client = require('twilio')(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN);
 
 exports.handler = function(event, context, callback) {
   Promise.all(
-    CONTACT_NUMBERS.map(num => {
+    CONTACT_NUMBERS.split(';').map(num => {
       return client.messages.create({
         from: BOT_NUMBER,
         to: num,
