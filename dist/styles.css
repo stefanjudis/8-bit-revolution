@@ -2,6 +2,7 @@ body,
 html {
   height: 100%;
   font-family: 'Press Start 2P', cursive;
+  letter-spacing: 2px;
 }
 
 .form {
@@ -17,11 +18,18 @@ html {
   display: inline-block;
   position: relative;
   text-align: center;
+  font-family: 'Press Start 2P', cursive;
   font-size: 30px;
   padding: 20px;
   text-decoration: none;
   color: white;
   box-shadow: inset -4px -4px 0px 0px #4aa52e;
+}
+
+.btn:disabled {
+  background: #ccc;
+  color: #444;
+  box-shadow: inset -4px -4px 0px 0px #aaa;
 }
 
 .btn::before,
@@ -47,16 +55,24 @@ html {
   border-right: 6px black solid;
 }
 
+.errorMsg,
 .successMsg {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  background: #4aa52e;
   margin: 0;
   padding: 1.5em;
   text-align: center;
   color: #fff;
   border-bottom: 6px solid #000;
   font-weight: 800;
+}
+
+.errorMsg {
+  background: #e01111;
+}
+
+.successMsg {
+  background: #4aa52e;
 }
