@@ -8,9 +8,14 @@
     "netlify-lambda": "^1.4.2",
     "twilio": "^3.28.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  },
   "scripts": {
-    "build": "netlify-lambda build functions"
+    "dev": "live-server ./dist",
+    "fn:serve": "netlify-lambda serve functions",
+    "fn:build": "netlify-lambda build functions",
+    "build": "npm run fn:build"
   },
   "repository": {
     "type": "git",

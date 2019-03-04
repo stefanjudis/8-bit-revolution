@@ -10,7 +10,6 @@
       rel="stylesheet"
     />
     <meta name="theme-color" content="#fafafa" />
-    <script src="/notify.js" defer></script>
   </head>
 
   <body>
@@ -18,5 +17,26 @@
     <form name="contact" class="form" method="POST" data-netlify="true">
       <button class="btn" type="submit">Send messages!</button>
     </form>
+
+    <script>
+      const form = document.querySelector('form');
+      form.addEventListener('submit', async event => {
+        event.preventDefault();
+        try {
+          const response = await fetch('/', {
+            method: 'post',
+            headers: {
+              'Content-type': 'application/x-www-form-urlencoded; charset=UTF-8'
+            },
+            body: new URLSearchParams(new FormData(form)).toString()
+          });
+
+          console.log(response);
+          document.querySelector('.successMsg').hidden = false;
+        } catch (e) {
+          console.error(e);
+        }
+      });
+    </script>
   </body>
 </html>
