@@ -8,4 +8,4 @@
   TWILIO_AUTH_TOKEN = "Your Twilio account auth token"
   BOT_NUMBER = "The bot phone number (Whatsapp or SMS)"
   BOT_MESSAGE = "Message that should be sent"
-  CONTACT_NUMBERS = "Numbers that should receive your message (devides with ;)"
+  CONTACT_NUMBERS = "Numbers that should receive your message (devided with ;)"
