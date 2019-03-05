@@ -19,12 +19,6 @@ const headers = {
 };
 
 exports.handler = function(event, context, callback) {
-  // if (event.httpMethod === 'OPTIONS') {
-  //   console.log('options hitting!');
-  //   callback(null, { statusCode: '204', headers });
-  //   return;
-  // }
-
   Promise.all(
     CONTACT_NUMBERS.split(';').map(num => {
       return client.messages.create({
