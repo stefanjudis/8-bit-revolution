@@ -8,7 +8,7 @@ Tell your friends how much you like 8-bit via text (SMS or WhatsApp)... every da
 
 ## How does this work?
 
-Using serverless functions you can build all the HTTP you need to power your static site (finally!!!). This example site uses Netlify Lambda to send messages to all of your friends using Twilio.
+Using serverless functions you can build all the HTTP endpoints you need to power your static sites (finally!!!). This example site uses Netlify Lambda functions to send messages to all of your friends using the Twilio API. Thanks to the usage of function your authorization token won't be exposed and it's save to use Twilio.
 
 ## Setup
 
@@ -16,7 +16,7 @@ Using serverless functions you can build all the HTTP you need to power your sta
 
 To set this project up yourself you can hit the button (👆) which leads you to a one-click install solution. What you need is a Twilio account and number and the numbers of your friends.
 
-You can watch me setting it up in real time! 🙈
+Ooooooor... you can watch me setting it up in real time! 🙈 (TODO how long did it take)
 
 TODO youtube video!
 
