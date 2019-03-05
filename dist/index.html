@@ -23,16 +23,21 @@
       const form = document.querySelector('form');
       form.addEventListener('submit', async event => {
         event.preventDefault();
+        const IS_PRODUCTION = !/127\.0\.0\.1/.test(window.location);
+        const SUBMISSION_URL = IS_PRODUCTION
+          ? '/'
+          : 'http://127.0.0.1:9000/submission-created';
+
+        form.querySelector('button').disabled = true;
+
         try {
-          const response = await fetch('/', {
+          const response = await fetch(SUBMISSION_URL, {
             method: 'post',
             headers: {
               'Content-type': 'application/x-www-form-urlencoded; charset=UTF-8'
             },
             body: new URLSearchParams(new FormData(form)).toString()
           });
-
-          form.querySelector('button').disabled = true;
 
           if (response.status === 200) {
             document.querySelector('.successMsg').hidden = false;
