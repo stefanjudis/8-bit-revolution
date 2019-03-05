@@ -20,13 +20,13 @@ To set this project up yourself you can hit the button (👆) which leads you to
 
 <dl>
   <dt>Repository name</dt>
-  <dd>Given name of the new repository which will be created in your GitHub account.</dd>
+  <dd>Given name of the new repository which will be created in your GitHub account e.g. <code>my-8-bit-revolution</code></dd>
 
   <dt>Twilio Account SID</dt>
-  <dd>You'll find your account sid in <a href="https://www.twilio.com/console">your Twilio console</a>.</dd>
+  <dd>You'll find your account sid in <a href="https://www.twilio.com/console">your Twilio console</a> e.g. <code>AC...................</code></dd>
 
   <dt>Twilio auth token</dt>
-  <dd>You'll find your auth token in <a href="https://www.twilio.com/console">your Twilio console</a>.</dd>
+  <dd>You'll find your auth token in <a href="https://www.twilio.com/console">your Twilio console</a> e.g. <code>a8...................</code></dd>
 
   <dt>Bot number</dt>
   <dd>The number you bot which should send messages e.g. <code>+4911111111111</code></dd>
