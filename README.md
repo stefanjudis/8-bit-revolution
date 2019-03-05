@@ -16,6 +16,28 @@ Using serverless functions you can build all the HTTP endpoints you need to powe
 
 To set this project up yourself you can hit the button (👆) which leads you to a one-click install solution. What you need is a Twilio account and number and the numbers of your friends.
 
+![Netlify setup dialog](./setup.jpg)
+
+<dl>
+  <dt>Repository name</dt>
+  <dd>Given name of the new repository which will be created in your GitHub account. </dd>
+
+  <dt>Twilio Account SID</dt>
+  <dd>You'll find your account sid in [your Twilio console](https://www.twilio.com/console).</dd>
+
+  <dt>Twilio auth token</dt>
+  <dd>You'll find your auth token in [your Twilio console](https://www.twilio.com/console).</dd>
+
+  <dt>Bot number</dt>
+  <dd>The number you bot which should send messages e.g. `+4911111111111`</dd>
+
+  <dt>Message</dt>
+  <dd>The message you want to spread and send your friends e.g. `8-bit rocks`</dd>
+
+  <dt>The numbers that should receive the message</dt>
+  <dd>A semi-colon seperated list of phone numbers e.g. `+491234567890;+490987654321`</dd>
+</dl>
+
 Ooooooor... you can watch me setting it up in real time! 🙈 (TODO how long did it take)
 
 TODO youtube video!
