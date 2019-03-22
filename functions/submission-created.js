@@ -9,15 +9,6 @@ const {
 } = process.env;
 const client = require('twilio')(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN);
 
-const headers = {
-  'Access-Control-Allow-Origin': '*',
-  'Access-Control-Allow-Headers':
-    'Origin, X-Requested-With, Content-Type, Accept',
-  'Access-Control-Allow-Methods': '*',
-  'Access-Control-Max-Age': '2592000',
-  'Access-Control-Allow-Credentials': 'true'
-};
-
 exports.handler = function(event, context, callback) {
   Promise.all(
     CONTACT_NUMBERS.split(';').map(num => {
@@ -28,6 +19,6 @@ exports.handler = function(event, context, callback) {
       });
     })
   )
-    .then(() => callback(null, { statusCode: 200, headers, body: 'Created' }))
+    .then(() => callback(null, { statusCode: 200, body: 'Created' }))
     .catch(e => callback(e));
 };
