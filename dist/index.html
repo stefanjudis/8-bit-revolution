@@ -14,7 +14,7 @@
 
   <body>
     <a
-      href="https://your-url"
+      href="https://github.com/stefanjudis/8-bit-revolution"
       class="github-corner"
       aria-label="View source on GitHub"
       ><svg
@@ -74,11 +74,14 @@
       const form = document.querySelector('form');
       form.addEventListener('submit', async event => {
         event.preventDefault();
+
+        // enable local testing
         const IS_PRODUCTION = !/127\.0\.0\.1/.test(window.location);
         const SUBMISSION_URL = IS_PRODUCTION
           ? '/'
           : 'http://127.0.0.1:9000/submission-created';
 
+        // disable button to prevent multiple submissions
         form.querySelector('button').disabled = true;
 
         try {
