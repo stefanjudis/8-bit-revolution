@@ -26,10 +26,10 @@ To set this project up yourself you can hit the button (👆) which leads you to
   <dd>You'll find your account sid in <a href="https://www.twilio.com/console">your Twilio console</a> e.g. <code>AC...................</code></dd>
 
   <dt>Twilio auth token</dt>
-  <dd>You'll find your auth token in <a href="https://www.twilio.com/console">your Twilio console</a> e.g. <code>a8...................</code></dd>
+  <dd>You'll find your auth token in <a href="https://www.twilio.com/console">your Twilio console</a> e.g. <code>a8...................</code> (make sure to treat your auth token safe and secure – <a href="https://www.twilio.com/blog/protect-phishing-auth-token-fraud">this article</a> gives guidance)</dd>
 
   <dt>Bot number</dt>
-  <dd>The number you bot which should send messages e.g. <code>+4911111111111</code></dd>
+  <dd>The number you bought on Twilio. This will be the number that will send messages e.g. <code>+4911111111111</code></dd>
 
   <dt>Message</dt>
   <dd>The message you want to spread and send your friends e.g. <code>8-bit rocks</code></dd>
@@ -38,9 +38,17 @@ To set this project up yourself you can hit the button (👆) which leads you to
   <dd>A semi-colon seperated list of phone numbers e.g. <code>+491234567890;+490987654321</code></dd>
 </dl>
 
-Ooooooor... you can watch me setting it up in real time! 🙈 (TODO how long did it take)
+Ooooooor... you can watch me setting it up in real time! 🙈
 
 TODO youtube video!
+
+## What did just happen?
+
+By doing the one-click installation dialog on Netlify you created your own copy of [8-bit-revolution.netlify.com](https://8-bit-revolution.netlify.com).
+
+The process created a new GitHub project in your GitHub account. This project includes all the source code to send SMS from a static site. You can now start and tweak the styles and functionality if you'd like to.
+
+Additionally it set up a webhook connection to redeploy the site every time you push code to the GitHub repository. Magic. 👌
 
 ## Learn more
 
