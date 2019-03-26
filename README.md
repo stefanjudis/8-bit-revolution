@@ -26,7 +26,8 @@ To set this project up yourself you can hit the button (👆) which leads you to
   <dd>You'll find your account sid in <a href="https://www.twilio.com/console">your Twilio console</a> e.g. <code>AC...................</code></dd>
 
   <dt>Twilio auth token</dt>
-  <dd>You'll find your auth token in <a href="https://www.twilio.com/console">your Twilio console</a> e.g. <code>a8...................</code> (make sure to treat your auth token safe and secure – <a href="https://www.twilio.com/blog/protect-phishing-auth-token-fraud">this article</a> gives guidance)</dd>
+  <dd>You'll find your auth token in <a href="https://www.twilio.com/console">your Twilio console</a> e.g. <code>a8...................</code><br>
+  (make sure to treat your auth token safe and secure – <a href="https://www.twilio.com/blog/protect-phishing-auth-token-fraud">this article</a> gives guidance)</dd>
 
   <dt>Bot number</dt>
   <dd>The number you bought on Twilio. This will be the number that will send messages e.g. <code>+4911111111111</code></dd>
