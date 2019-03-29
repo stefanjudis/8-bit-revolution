@@ -41,8 +41,6 @@ To set this project up yourself you can hit the button (👆) which leads you to
 
 Ooooooor... you can watch me setting it up in real time! 🙈
 
-TODO youtube video!
-
 ## What did just happen?
 
 By doing the one-click installation dialog on Netlify you created your own copy of [8-bit-revolution.netlify.com](https://8-bit-revolution.netlify.com).
@@ -53,4 +51,4 @@ Additionally it set up a webhook connection to redeploy the site every time you 
 
 ## Learn more
 
-You can find out more on how this is done by reading the tutorial on [twilio.com-TODO](...).
+You can find out more on how this is done by reading [the tutorial on twilio.com](...).
