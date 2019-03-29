@@ -39,8 +39,6 @@ To set this project up yourself you can hit the button (👆) which leads you to
   <dd>A semi-colon seperated list of phone numbers e.g. <code>+491234567890;+490987654321</code></dd>
 </dl>
 
-Ooooooor... you can watch me setting it up in real time! 🙈
-
 ## What did just happen?
 
 By doing the one-click installation dialog on Netlify you created your own copy of [8-bit-revolution.netlify.com](https://8-bit-revolution.netlify.com).
