@@ -49,4 +49,4 @@ Additionally it set up a webhook connection to redeploy the site every time you 
 
 ## Learn more
 
-You can find out more on how this is done by reading [the tutorial on twilio.com](...).
+You can find out more on how this is done by reading [the tutorial on twilio.com](https://www.twilio.com/blog/a-how-to-send-text-messages-from-your-static-site-using-netlify-twilio-and-serverless-functions).
