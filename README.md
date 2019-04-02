@@ -8,13 +8,13 @@ Tell your friends how much you like 8-bit via text (SMS or WhatsApp)... every da
 
 ## How does this work?
 
-Using serverless functions you can build all the HTTP endpoints you need to power your static sites (finally!!!). This example site uses Netlify Lambda functions to send messages to all of your friends using the Twilio API. Thanks to the usage of function your authorization token won't be exposed and it's save to use Twilio.
+Using serverless functions you can build all the HTTP endpoints you need to power your static sites (finally!!!). This example site uses Netlify Lambda functions to send messages to all of your friends using the Twilio API. Thanks to the usage of serverless functions your authorization token won't be exposed and it's save to use Twilio.
 
 ## Setup
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/stefanjudis/8-bit-revolution)
 
-To set this project up yourself you can hit the button (👆) which leads you to a one-click install solution. What you need is a Twilio account and number and the numbers of your friends.
+To set this project up yourself you can hit the button (👆) which leads you to a one-click install solution. What you need is a Twilio account and the numbers of your friends.
 
 ![Netlify setup dialog](./setup.jpg)
 
